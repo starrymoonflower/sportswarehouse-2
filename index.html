@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sports Warehouse Jess Cheum</title>
+</head>
+
+<body>
+    <div class="site-wrapper">
+        <header class="site-header">
+            <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+            <label for="nav-toggle" class="nav-toggle-label">
+                <span class="nav-toggle-line"></span>
+                <span class="nav-toggle__menu">Menu</span>
+            </label>
+            <nav class="header-nav">
+                <ul class="header-nav__list">
+                    <li class="header-nav__item"><a href="#" class="header-nav__link">Home</a></li>
+                    <li class="header-nav__item"><a href="#" class="header-nav__link">About SW</a></li>
+                    <li class="header-nav__item"><a href="#" class="header-nav__link">Contact Us</a></li>
+                    <li class="header-nav__item"><a href="#" class="header-nav__link">View Products</a></li>
+                </ul>
+            </nav>
+            <div class="user-container">
+                <ul class="user-list">
+                    <li class="user__account">
+                        <svg width='15' xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 448 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                            <path fill="#ffffff"
+                                d="M144 144v48H304V144c0-44.2-35.8-80-80-80s-80 35.8-80 80zM80 192V144C80 64.5 144.5 0 224 0s144 64.5 144 144v48h16c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V256c0-35.3 28.7-64 64-64H80z" />
+                        </svg><a href="#" class="account-login"> Login</a>
+                    </li>
+                    <li class="user__cart"><svg width='20' xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 576 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                            <path fill='#ffffff'
+                                d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z" />
+                        </svg><a href="#" class="view-cart">View Cart</a>
+                    </li>
+                    <li class="user__cart-count">
+                        <a href="#" class="cart__count">0 items</a>
+                    </li>
+
+                </ul>
+            </div>
+        </header>
+
+        <main class="site-content">
+            <section class="logo-search__container">
+                <img class="site-logo" src="./sports-warehouse-logo(1).svg" alt="swlogo">
+                <div class="search-container">
+                    <input placeholder="search-products" type="search" id="search-products" name="search">
+                    <div class="search-icon">
+                        <svg width='20' xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 512 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                            <path fill='#ffffff'
+                                d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z" />
+                        </svg>
+                    </div>
+                </div>
+            </section>
+
+
+
+            <section>
+                <nav class="category-nav">
+                    <ul class="category-nav__list">
+                        <li class="category-nav__item"><a class="category-nav__link" href="#">Shoes</a></li>
+                        <li class="category-nav__item"><a class="category-nav__link" href="#">Helmets</a></li>
+                        <li class="category-nav__item"><a class="category-nav__link" href="#">Pants</a></li>
+                        <li class="category-nav__item"><a class="category-nav__link" href="#">Tops</a></li>
+                        <li class="category-nav__item"><a class="category-nav__link" href="#">Balls</a></li>
+                        <li class="category-nav__item"><a class="category-nav__link" href="#">Equipment</a></li>
+                        <li class="category-nav__item"><a class="category-nav__link" href="#">Training gear</a></li>
+                    </ul>
+                </nav>
+            </section>
+
+            <section class="slider-container">
+                
+                <div class="slider">
+                    <input type="radio" name="slider" id="slide1" checked>
+                    <input type="radio" name="slider" id="slide2">
+                    <input type="radio" name="slider" id="slide3">
+                    
+                    <div class="slider-nav__manual">
+                        <label for="slide1"></label>
+                        <label for="slide2"></label>
+                        <label for="slide3"></label>
+                    </div>
+                    <!-- <img class="banner-one" src="./slide-image/image 1.svg" alt="soccer-ball banner"> -->
+                    <!-- <span><img class="overlay-bg" src="./overlay bg.svg" alt=""></span> -->
+                    <div class="banner-text">
+                        <p class="view-range">View our brand new range of</p>
+                        <p class="sports-ball">Sports balls</p>
+                        <button id="shop-now">Shop now</button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="featured-products">
+                <h2 class="main-heading">Featured Products</h2>
+                <div class="featured-products__wrapper">
+                    <figure class="product-item">
+                        <img class="soccer-ball" src="./featured-products/soccer-ball.svg">
+                        <figcaption class="product-item__info">
+                            <div class="product-item__price">
+                                <div class="product-item__discount">
+                                    <span class="promo-price">$34.95</span>
+                                    <div class="old-price__wrapper">
+                                        <span class="was">was</span>
+                                        <span class="old-price">$46.00</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <p class="product-item__description">
+                                adidas Euro16 Top Soccer Ball
+                            </p>
+
+                        </figcaption>
+                    </figure>
+
+                    <figure class="product-item">
+                        <img class="skate-helmet" src="./featured-products/skate-helmet.svg">
+                        <figcaption class="product-item__info">
+                            <div class="product-item__price">
+                                <span class="current-price">$70.00</span>
+                            </div>
+
+                            <p class="product-item__description">
+                                Pro-tec Classic Skate Helmet
+                            </p>
+
+                        </figcaption>
+                    </figure>
+
+                    <figure class="product-item">
+                        <img class="water-bottle" src="./featured-products/water-bottle.svg">
+                        <figcaption class="product-item__info">
+                            <div class="product-item__price">
+                                <div class="product-item__discount">
+                                    <span class="promo-price">$15.00</span>
+                                    <div class="old-price__wrapper">
+                                        <span class="was">was</span>
+                                        <span class="old-price">$17.50</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="product-item__description">
+                                Nike Sport 600ml Water Bottle
+                            </p>
+
+                        </figcaption>
+                    </figure>
+
+                    <figure class="product-item">
+                        <img class="boxing-gloves" src="./featured-products/boxing-gloves.svg">
+                        <figcaption class="product-item__info">
+                            <div class="product-item__price">
+                                <span class="current-price">$79.95</span>
+                            </div>
+
+                            <p class="product-item__description">
+                                Sting ArmaPlus Boxing Gloves
+                            </p>
+
+                        </figcaption>
+                    </figure>
+
+                    <figure class="product-item">
+                        <img class="football-boots" src="./featured-products/football-boots.svg">
+                        <figcaption class="product-item__info">
+                            <div class="product-item__price">
+                                <span class="current-price">$160.00</span>
+                            </div>
+
+                            <p class="product-item__description">
+                                Asics Gel Lethal Tigreor 8 IT Men's
+                            </p>
+
+                        </figcaption>
+                    </figure>
+                </div>
+            </section>
+
+            <section class="brands-partnerships">
+                <h2 class="main-heading">Our brands and partnerships</h2>
+                <div class="brands-partnership__wrapper">
+                    <div class="partnerships">
+                        <p id="partnership__content">These are some of our top brands and partnerships.</p>
+                        <a class="partnership__links" href="#">The best of the best is here.</a>
+                    </div>
+
+                    <div class="brand-logo">
+                        <img src="./logo/logo_nike.svg" alt="Nike logo" class="nike-logo">
+                        <img src="./logo/logo_adidas.svg" alt="Adidas logo" class="adidas-logo">
+                        <img src="./logo/logo_skins.svg" alt="Skins logo" class="skins-logo">
+                        <img src="./logo/logo_asics.svg" alt="Asics logo" class="asics-logo">
+                        <img src="./logo/logo_newbalance.svg" alt="Newbalance logo" class="newbalance-logo">
+                        <img src="./logo/logo_wilson.svg" alt="Wilson logo" class="wilson-logo">
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer-content">
+            <section class="footer-info">
+                <article class="footer-info__nav">
+                    <h2 class="footer-info__heading">Site navigation</h2>
+                    <ul class="footer-info__list">
+
+                        <li class="footer-info__item">
+                            <span class="footer-info__bullet"></span>
+                            <a class="footer-info__link" href="#">Home</a>
+                        </li>
+                        <li class="footer-info__item">
+                            <span class="footer-info__bullet"></span>
+                            <a class="footer-info__link" href="#">About SW</a>
+                        </li>
+                        <li class="footer-info__item">
+                            <span class="footer-info__bullet"></span>
+                            <a class="footer-info__link" href="#">Contact Us</a>
+                        </li>
+                        <li class="footer-info__item">
+                            <span class="footer-info__bullet"></span>
+                            <a class="footer-info__link" href="#">View Products</a>
+                        </li>
+                        <li class="footer-info__item">
+                            <span class="footer-info__bullet"></span>
+                            <a class="footer-info__link" href="#">Privacy Policy</a>
+                        </li>
+                    </ul>
+                </article>
+                <article class="footer-info__categories">
+                    <h2 class="footer-info__heading">Product categories</h2>
+                    <ul class="footer-info__list categories">
+
+                        <li class="footer-info__item">
+                            <span class="footer-info__bullet"></span>
+                            <a class="footer-info__link" href="#">Shoes</a>
+                        </li>
+                        <li class="footer-info__item">
+                            <span class="footer-info__bullet"></span>
+                            <a class="footer-info__link" href="#">Helmets</a>
+                        </li>
+                        <li class="footer-info__item">
+                            <span class="footer-info__bullet"></span>
+                            <a class="footer-info__link" href="#">Pants</a>
+                        </li>
+                        <li class="footer-info__item">
+                            <span class="footer-info__bullet"></span>
+                            <a class="footer-info__link" href="#">Tops</a>
+                        </li>
+                        <li class="footer-info__item">
+                            <span class="footer-info__bullet"></span>
+                            <a class="footer-info__link" href="#">Balls</a>
+                        </li>
+                    </ul>
+                </article>
+
+                <article class="footer-info__social">
+                    <h2 class="footer-info__heading">Contact Sports Warehouse</h2>
+                    <ul class="social-icon__container">
+
+                        <li class="social-icon">
+                            <a class="social-icon__link" href="#">
+                                <img src="./assets/facebook-f.svg" alt="social-media" class="social-icons"
+                                    id="facebook">
+                            </a>
+                            <p class="social-media">Facebook</p>
+                        </li>
+                        <li class="social-icon">
+                            <a class="social-icon__link" href="#">
+                                <img src="./assets/twitter.svg" alt="social-media" class="social-icons" id="twitter">
+                            </a>
+                            <p class="social-media">Twitter</p>
+                        </li>
+                        <li class="social-icon">
+                            <a class="social-icon__link" href="#">
+                                <img src="./assets/paper-plane-solid.svg" alt="social-media">
+                            </a>
+                            <p class="social-media">Other</p>
+                        </li>
+                    </ul>
+
+                </article>
+            </section>
+
+            <div class="footer-copyright">
+                <p>&copy; Copyright
+                    <script>document.write(new Date().getFullYear())</script> Sports Warehouse.
+                </p><br>
+                <p>All rights reserved.</p><br>
+                <p>Website made by Awesomesauce Design.</p>
+
+            </div>
+
+        </footer>
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+</body>
+
+</html>
